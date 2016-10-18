@@ -21,8 +21,10 @@
 				        <input class="form-control" id="direccion" name="direccion" type="text" value="<?php echo $datos['direccion'] ?>" required>      
 				    </div>
 				    <div class="form-group">
+
 				    	 <button type="button" name="btnsubmit" onclick="vali_proveedor()" class="btn btn-success">Registrar</button>
 				        <button type="reset" class="btn btn-warning">Borrar</button>
+				        
 				    </div>
 				</form>
 	  		</div>
